@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -10,18 +11,19 @@
   background-color: grey;
   color: white;
   align-items: center;
-  .links {
-    display: flex;
-    width: 50%;
-    justify-content: space-between;
-    list-style: none;
-    font-family: "Kirang Haerang", cursive;
-  }
 }
+.nav-bar .links {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  list-style: none;
+  font-family: "Kirang Haerang", cursive;
+}
+
 .gallery {
   display: flex;
-  &__tile {
-    height: 300px;
-    width: 300px;
-  }
+}
+.gallery__tile {
+  height: 300px;
+  width: 300px;
 }
