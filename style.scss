@@ -48,3 +48,20 @@ justify-content: center;}
     }
   }
 }
+
+.contact__header {
+  font-size: 3em;
+    text-align: center;
+    margin: 100px;
+    font-family: "Kirang Haerang", cursive;
+}
+
+.contact__content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .contact__form {
+    display: flex;
+  }
+}
