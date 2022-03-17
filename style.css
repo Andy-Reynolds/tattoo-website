@@ -22,8 +22,27 @@
 
 .gallery {
   display: flex;
+  flex-direction: column;
+}
+.gallery__header {
+  font-family: "Kirang Haerang", cursive;
+  font-size: 3em;
+  text-align: center;
+  margin: 100px;
+}
+.gallery .allTiles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .gallery__tile {
   height: 300px;
   width: 300px;
+  display: flex;
+  flex-direction: row;
+}
+.gallery__tile-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
